@@ -50,7 +50,12 @@ const tick = () => {
         <Row className='align-items-center'>
           <Col xs = {12} md = {6} xl = {7}>
             <span className = 'tagline'>Welcome to my Portfolio</span>
-            <h1>{'Hi! My name is Dimitrius and im a '}<span className="wrap">{text}</span></h1>
+            <h1>
+  {'Hi! My name is Dimitrius and I\'m a '}
+  <br />
+  <span className="wrap">{text}</span>
+</h1>
+
             <p>Being the son of first-generation Italian Americans, I learned the importance of hard work and respect from a young age. As a child, I've always had an interest in technology and the different ways in which it impacts the world. Through software development, I have been granted the opportunity to freely explore my passion and hold the ability to create amazing applications from inception to a finished product</p>
             <button onClick={() => console.log('connect')}> Let's Connect <ArrowRightCircle size={25}/></button>
           </Col>
